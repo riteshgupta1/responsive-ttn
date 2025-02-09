@@ -308,6 +308,7 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
+    overflow: hidden;
   }
   
   .proceed-btn {
@@ -327,7 +328,9 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  
+  body.popup-open{
+    overflow: hidden;
+  }
   /* Responsive Design */
   @media (max-width: 768px) {
     

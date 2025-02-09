@@ -10,179 +10,183 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo1.jpg" alt="TO THE NEW">
-            <button class="hamburger">☰</button>                           
-        </div>
-        <nav class="navbar">
-            <ul class="nav-links">
-                <li class="nav-item">
-                    <a href="#" class="active">HOME</a>
-                    <div class="dropdown">
-                        <a href="#">Homepage 1</a>
-                        <a href="#">Homepage 2</a>
-                        <a href="#">Homepage 3</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a href="#">SINGLE POSTS</a>
-                    <div class="dropdown">
-                        <a href="#">RIGHT SIDEBAR POST</a>
-                        <a href="#">FULLWIDTH POST</a>
-                        <a href="#">LEFT SIDEBAR POST</a>
-                        <a href="#">GALLERY POST</a>
-                        <a href="#">VIDEO POST</a>
-                        <a href="#">MUSIC POST</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a href="#">PAGES</a>
-                    <div class="dropdown">
-                        <a href="#">Page 1</a>
-                        <a href="#">Page 2</a>
-                        <a href="#">Page 3</a>
-                    </div>
-                </li>
-                <li><a href="#">CATEGORY</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT ME</a></li>
-                <li class="nav-item">
-                    <a href="#">FEATURES</a>
-                    <div class="dropdown">
-                        <a href="#">Feature 1</a>
-                        <a href="#">Feature 2</a>
-                        <a href="#">Feature 3</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </header>
 
-    <div class="hero">
-        <h1>CONTACT US</h1>
-        <p>LET'S GET IN TOUCH</p>
-    </div>
-
-    <main class="container">
-        <div class="content">
-            <section class="contact-form">
-                <p class="intro-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                    Mauris elementum accumsan leo vel tempor. Sit amet cursus nisi aliquam.
-                </p>
-
-                <form id="contactForm" onsubmit="return validateForm(event)">
-                    <div class="form-group">
-                        <label for="name">NAME *</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">EMAIL *</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="password">PASSWORD *</label>
-                        <input type="password" id="password" name="password" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label>GENDER *</label>
-                        <div class="radio-group">
-                            <input type="radio" id="male" name="gender" value="male" required>
-                            <label for="male">Male</label>
-                            <input type="radio" id="female" name="gender" value="female">
-                            <label for="female">Female</label>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="city">CITY *</label>
-                        <select id="city" name="city" required>
-                            <option value="">Select City</option>
-                            <option value="new-york">New York</option>
-                            <option value="london">London</option>
-                            <option value="paris">Paris</option>
-                            <option value="tokyo">Tokyo</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label>HOBBIES *</label>
-                        <div class="checkbox-group">
-                            <input type="checkbox" id="reading" name="hobbies" value="reading">
-                            <label for="reading">Reading</label>
-                            <input type="checkbox" id="writing" name="hobbies" value="writing">
-                            <label for="writing">Writing</label>
-                            <input type="checkbox" id="music" name="hobbies" value="music">
-                            <label for="music">Music</label>
-                            <input type="checkbox" id="sports" name="hobbies" value="sports">
-                            <label for="sports">Sports</label>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">MESSAGE *</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-
-                    <button type="submit" class="submit-btn">SUBMIT FORM</button>
-                </form>
-            </section>
-
-            <aside class="sidebar">
-                <div class="about-us">
-                    <h2>ABOUT US</h2>
-                    <img src="background2.jpeg" alt="About Us Image">
-                    <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
-                    <img src="signature.png" alt="Signature" class="signature">
-                </div>
-
-                <div class="social-links">
-                    <h3>FOLLOW ME ON</h3>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-pinterest"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </aside>
-        </div>
-    </main>
-
-    <footer>
-        <div class="footer-posts">
-            <div class="post-section">
-                <h3>RECENT POSTS</h3>
-                <ul>
-                    <li>BEAUTY OF NATURE<span>July 22, 2015</span></li>
-                    <li>FASHION MODEL SHOOT<span>July 22, 2015</span></li>
-                    <li>GOLDEN SNOW LAND<span>July 22, 2015</span></li>
-                </ul>
+        <header>
+            <div class="logo">
+                <img src="logo1.jpg" alt="TO THE NEW">
+                <button class="hamburger">☰</button>
             </div>
-            <div class="post-section">
-                <h3>POPULAR POSTS</h3>
-                <ul>
-                    <li>TOP 10 INGREDIENTS<span>July 22, 2015</span></li>
-                    <li>FAMILY COMES FIRST<span>July 22, 2015</span></li>
-                    <li>GOLDEN SNOW LAND<span>July 22, 2015</span></li>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a href="#" class="active">HOME</a>
+                        <div class="dropdown">
+                            <a href="#">Homepage 1</a>
+                            <a href="#">Homepage 2</a>
+                            <a href="#">Homepage 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">SINGLE POSTS</a>
+                        <div class="dropdown">
+                            <a href="#">RIGHT SIDEBAR POST</a>
+                            <a href="#">FULLWIDTH POST</a>
+                            <a href="#">LEFT SIDEBAR POST</a>
+                            <a href="#">GALLERY POST</a>
+                            <a href="#">VIDEO POST</a>
+                            <a href="#">MUSIC POST</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">PAGES</a>
+                        <div class="dropdown">
+                            <a href="#">Page 1</a>
+                            <a href="#">Page 2</a>
+                            <a href="#">Page 3</a>
+                        </div>
+                    </li>
+                    <li><a href="#">CATEGORY</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT ME</a></li>
+                    <li class="nav-item">
+                        <a href="#">FEATURES</a>
+                        <div class="dropdown">
+                            <a href="#">Feature 1</a>
+                            <a href="#">Feature 2</a>
+                            <a href="#">Feature 3</a>
+                        </div>
+                    </li>
                 </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>© Copyright LandBlog Theme Demo - Theme by ThemeGoods</p>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Lifestyle</a>
-                <a href="#">About</a>
-                <a href="#">Contact Me</a>
             </nav>
+        </header>
+
+        <div class="hero">
+            <h1>CONTACT US</h1>
+            <p>LET'S GET IN TOUCH</p>
         </div>
-    </footer>
+
+        <main class="container">
+            <div class="content">
+                <section class="contact-form">
+                    <p class="intro-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Mauris elementum accumsan leo vel tempor. Sit amet cursus nisi aliquam.
+                    </p>
+
+                    <form id="contactForm" onsubmit="return validateForm(event)">
+                        <div class="form-group">
+                            <label for="name">NAME *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">EMAIL *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">PASSWORD *</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>GENDER *</label>
+                            <div class="radio-group">
+                                <input type="radio" id="male" name="gender" value="male" required>
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city">CITY *</label>
+                            <select id="city" name="city" required>
+                                <option value="">Select City</option>
+                                <option value="new-york">New York</option>
+                                <option value="london">London</option>
+                                <option value="paris">Paris</option>
+                                <option value="tokyo">Tokyo</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>HOBBIES *</label>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="reading" name="hobbies" value="reading">
+                                <label for="reading">Reading</label>
+                                <input type="checkbox" id="writing" name="hobbies" value="writing">
+                                <label for="writing">Writing</label>
+                                <input type="checkbox" id="music" name="hobbies" value="music">
+                                <label for="music">Music</label>
+                                <input type="checkbox" id="sports" name="hobbies" value="sports">
+                                <label for="sports">Sports</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">MESSAGE *</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">SUBMIT FORM</button>
+                    </form>
+                </section>
+
+                <aside class="sidebar">
+                    <div class="about-us">
+                        <h2>ABOUT US</h2>
+                        <img src="background2.jpeg" alt="About Us Image">
+                        <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
+                        <img src="signature.png" alt="Signature" class="signature">
+                    </div>
+
+                    <div class="social-links">
+                        <h3>FOLLOW ME ON</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-posts">
+                <div class="post-section">
+                    <h3>RECENT POSTS</h3>
+                    <ul>
+                        <li>BEAUTY OF NATURE<span>July 22, 2015</span></li>
+                        <li>FASHION MODEL SHOOT<span>July 22, 2015</span></li>
+                        <li>GOLDEN SNOW LAND<span>July 22, 2015</span></li>
+                    </ul>
+                </div>
+                <div class="post-section">
+                    <h3>POPULAR POSTS</h3>
+                    <ul>
+                        <li>TOP 10 INGREDIENTS<span>July 22, 2015</span></li>
+                        <li>FAMILY COMES FIRST<span>July 22, 2015</span></li>
+                        <li>GOLDEN SNOW LAND<span>July 22, 2015</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© Copyright LandBlog Theme Demo - Theme by ThemeGoods</p>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Lifestyle</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact Me</a>
+                </nav>
+            </div>
+        </footer>
+
+
+    
 
     <div id="popup" class="popup">
         <div class="popup-content">

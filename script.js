@@ -70,12 +70,19 @@ const popup = document.getElementById("popup")
 const proceedBtn = document.getElementById("proceedBtn")
 const cancelBtn = document.getElementById("cancelBtn")
 
+
+
+
 function showPopup() {
   popup.style.display = "flex"
+  document.body.classList.add("popup-open");
+  
 }
 
 function hidePopup() {
   popup.style.display = "none"
+  document.body.classList.remove("popup-open");
+  
 }
 
 proceedBtn.addEventListener("click", () => {
